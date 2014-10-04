@@ -1,0 +1,76 @@
+#!/bin/csh -f
+#
+# abstract - print a full bibtex bib file out
+#
+# David Kotz, Vick Khera
+# $Author: doolin $
+# usage:
+#  abstract [bibfile...]
+#
+
+if ($#argv == 0) then
+	set files=(combined)
+else
+	if ($1:e == "bib") then
+   	   set files="$1:r"
+	else
+   	   set files="$1"
+	endif
+endif
+
+if ($#argv > 1) then
+foreach f ($argv[2-])
+	   if ($f:e == "bib") then
+	   	   set files="$files,$f:r"
+	   else
+	   	   set files="$files,$f"
+	   endif
+end
+endif
+
+echo creating abs.tex for $files
+
+cat > abs.tex <<EOF
+\documentclass{article}
+\setlength{\oddsidemargin}{0.in}
+\setlength{\textwidth}{6.5in}
+
+\sloppy
+%\input{big-margins}
+%\input{vkmacros}
+\begin{document}
+\begin{center} \Large Bibliography List---Dave Doolin \normalsize \\\\
+\medskip
+%This document is available in \LaTeX\ format at\\\\
+%{\tt http://www.cs.utk.edu/\~{}doolin/www-home/$files.bib}
+EOF
+#echo $files >> abs.tex
+cat >> abs.tex <<EOF
+\today
+\end{center}
+\nocite{*}
+\bibliographystyle{abstract}
+EOF
+
+cat >> abs.tex << EOF
+\bibliography{$files}
+EOF
+
+echo '\bibliography{'$files'}' >> abs.tex
+echo '\end{document}' >> abs.tex
+
+rm -f abs.{aux,log,dvi,bbl,blg}
+
+set echo 
+xelatex  abs # > /dev/null
+bibtex abs  #> /dev/null
+xelatex  abs # > /dev/null
+xelatex  abs # > /dev/null
+#dvips -o abs.ps abs.dvi
+#dvipdfm abs.dvi
+
+#if ($#argv == 1) then
+#mv abs.ps $1.ps
+#endif
+#
+#~/bin/scripts//refmover &

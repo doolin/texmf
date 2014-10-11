@@ -1,0 +1,99 @@
+#!/bin/bash
+
+#
+# abstract - print a full bibtex bib file out
+#
+# David Kotz, Vick Khera, Dave Doolin
+#
+# usage:
+#  abstract [bibfile...]
+#
+# changed to use bash
+
+#if ($argv == 0) then
+#	set files=(combined)
+#else
+#	if ($1:e == "bib") then
+#   	   set files="$1:r"
+#	else
+#   	   set files="$1"
+#	endif
+#endif
+
+#if ($#argv > 1) then
+#foreach f ($argv[2-])
+#	   if ($f:e == "bib") then
+#	   	   set files="$files,$f:r"
+#	   else
+#	   	   set files="$files,$f"
+#	   endif
+#end
+#endif
+
+files="dda,ifdda,icadd1,icadd2,icadd3,icadd4,icadd5"
+
+
+echo creating abs.tex for $files
+
+
+
+cat > abs.tex <<EOF
+\documentclass{article}
+%\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{chicago}
+
+%%% Super tight margins for tiny 2-col printing.
+
+%\setlength{\oddsidemargin}{-0.4in}
+%\setlength{\topmargin}{0in}
+%\setlength{\textwidth}{7.2in}
+%\setlength{\textheight}{9.0in}
+
+\setlength{\oddsidemargin}{0.in}
+\setlength{\topmargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.5in}
+
+\input comment
+
+%\sloppy
+%\input{big-margins}
+%\input{vkmacros}
+
+\begin{document}
+%\onecolumn
+%\begin{center} \Large Bibliography List---Dave Doolin \large \\\\
+%\medskip
+%This document is available in \LaTeX\ format at\\\\
+%{\tt http://www.cs.utk.edu/\~{}doolin/www-home/$files.bib}
+%\\
+%\\ 
+%\today
+%\end{center}
+
+%\twocolumn
+\nopagebreak
+
+\footnotesize
+
+\nocite{*}
+
+%\bibliographystyle{daveab}
+\bibliographystyle{chicago}
+EOF
+
+
+echo "\\bibliography{$files}" >> abs.tex
+echo "\\end{document}" >> abs.tex
+
+rm -f abs.{aux,log,dvi,bbl,blg}
+
+set echo 
+latex abs
+bibtex abs
+latex abs
+latex abs
+dvips -o abs.ps abs.dvi
+

@@ -1,0 +1,6 @@
+#!/usr/bin/csh
+
+
+enscript -G -pttttt $1
+psnup -n4  ttttt > $1.4up
+rm -f ttttt

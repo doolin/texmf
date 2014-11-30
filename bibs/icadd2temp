@@ -1,0 +1,816 @@
+%%%
+%%% Start of complete proceedings bib file
+
+@String{TITLE={Proceedings of the Second 
+International Conference on Analysis of 
+Discontinuous Deformation}}
+
+
+@InProceedings{alexeev:ad1997,
+  author = 	 {A. D. Alexeev and V. N. Revva and 
+Y. B. Gryadushchi and A. N. Kabanov},
+  title = 	 {Study of mechanism of destruction 
+of rock with a discrete inhomogeneity},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {448-450},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{amadei:b1997,
+  author = 	 {B. Amadei and J. L. Wibowo},
+  title = 	 {Applicability of existing models to 
+predict the behavior of rock joints under different 
+boundary conditions},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {36-106},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{asano:t1997,
+  author = 	 {T. Asano and M. Nishimura and 
+H. Masui and S. Kameda},
+  title = 	 {Analysis of earth pressure 
+in trap door test by the distinct element method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {343-350},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{chen:g1997,
+  author = 	 {G. Chen and Y. Ohnishi and T. Ito},
+  title = 	 {Development of high order manifold method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {132-154},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{chen:mh1997,
+  author = 	 {M. H. Chen and C.-Y. Wang and 
+J. Shen},
+  title = 	 {Static contact problems of discrete 
+systems solved by the diffuse element method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {323-342},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{chikahisa:h1997,
+  author = 	 {H. Chikahisa and K. Kobayashi and K.
+Matsumoto and M. Tsutsui and Y. Ohnishi},
+  title = 	 {Geological survey for {DDA} and its application 
+to a large rock cavern},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {263-273},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{chiou:yj1997,
+  author = 	 {Y.-J. Chiou and Q. Yang and X. Kuo},
+  title = 	 {Crack propogation using manifold method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {298-308},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+
+@InProceedings{deng:x1997,
+  author = 	 {X. Deng},
+  title = 	 {Dynamic deformation and stress 
+field analysis of fault},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {211-217},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{esaki:t1997,
+  author = 	 {T. Esaki and S. Du and Y. Jiang and 
+Y. Wada and J. Sun},
+  title = 	 {Effect of asperity damage on the shear 
+behavior of irregular rock joints},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {459-464},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{fujikawa:t1997,
+  author = 	 {T. Fujikawa and T. Aoki and T. Hirokawa},
+  title = 	 {Research and development of a new device 
+for discontinuities site-survey},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {465-471},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{hakuno:m1997,
+  author = 	 {M. Hakuno},
+  title = 	 {Simulation of 3-D concrete-frame
+collapse due to dynamic loading},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {125-131},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{ishikawa:t1997,
+  author = 	 {T. Ishikawa and Y. Ohnishi and A. 
+Namura},
+  title = 	 {{DDA} applied to deformation analysis 
+of coarse granular materials (ballast)},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {253-262},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{ke:tc1997,
+  author = 	 {T.-C. Ke},
+  title = 	 {Application of {DDA} to simulate fracture 
+propogation in solid},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {155-185},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{kinashi:h1997:ICADD2,
+  author = 	 {H. Kinashi and S. Amano},
+  title = 	 {Numerical study on support effects
+of cable bolt in discontinuous rock mass},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {351-358},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{kitoh:h1997,
+  author = 	 {H. Kitoh and N. Takeuchi and M. Ueda 
+and H. Higuchi and A. Kambayashi and M. Tomida},
+  title = 	 {Size effect analysis of plain concrete 
+beams by using RBSM},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {373-382},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{koo:cy1997,
+  author = 	 {C.-Y. Koo and J. C. Chern},
+  title = 	 {Modeling of progressive fracture 
+in jointed rock by {DDA} method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {186-201},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{kosugi:m1997,
+  author = 	 {M. Kosugi and Y. Onodera and A. Tamai
+and W. Wang},
+  title = 	 {Characterization and behavior evaluation 
+of jointed rock mass in tunneling},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {472-480},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{lin:js1997a,
+  title = 	 {Soil slope stability analysis 
+using {DDA}},
+  author = 	 {J.-S. Lin and S. Chen},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {238-244},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{lin:js1997b,
+  author = 	 {J.-S. Lin and R. {Al-Zahrani}
+and A. Munjiza and D.-H. Lee},
+  title = 	 {Large displacement and finite strain 
+{DDA}: an implementation and physical verification},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {245-252},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{munjiza:a1997,
+  author = 	 {A. Munjiza and G. J. Huang and 
+J.-S. Lin},
+  title = 	 {Combined finite/discrete element
+method --- improved contact solutions},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {365-372},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{ohtsubo:h1997,
+  author = 	 {H. Ohtsubo and K. Suzuki and K. Terada
+and K. Nakanashi},
+  title = 	 {Utilization of finite covers in the manifold 
+method for accuracy control},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {317-322},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{sasaki:t1997,
+  author = 	 {T. Sasaki and S. Morikawa and D. Ishii 
+and Y. Ohnishi},
+  title = 	 {Elastic-plastic analysis of jointed rock 
+models by manifold method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {309-316},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{shi:gh1997,
+  author = 	 {G. H. Shi},
+  title = 	 {Numerical manifold method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {1-35},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{shi:xj1997,
+  author = 	 {X. Shi and D. Li},
+  title = 	 {The movement of rock joint 
+triggered by water diffusion},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {442-447},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{shih:c1997,
+  author = 	 {C. Shih and Y.-K. Wang and E. C. Ting},
+  title = 	 {Behavior and analysis of deformable 
+continuous media containing rigid discontinuity bodies},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {391-418},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{shinji:m1997,
+  author = 	 {M. Shinji},
+  title = 	 {Viscosity coefficient of the 
+rockfall simulation},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {201-210},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{shyu:kk1997,
+  author = 	 {K. K. Shyu and C.-T. Chang and M. 
+Reza Salami},
+  title = 	 {Tunnel engineering applications using 
+discontinuous deformation analysis with finite element mesh},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {218-237},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{takeda:h1997a,
+  author = 	 {H. Takeda and M. Kusabuka and N. Takeuchi
+and K. Sato},
+  title = 	 {New finite elements for the analysis 
+of progressive discontinuity problems based on the finite 
+volume concepts},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{takeda:h1997b,
+  author = 	 {H. Takeda and M. Kusabuka and H. Tanaka
+and N. Kurokawa},
+  title = 	 {Finite element method for contact 
+problem and its application to sheild tunnel excavation 
+analysis},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {432-441},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+@InProceedings{takeuchi:n1997,
+  author = 	 {N. Takeuchi and T. Kawai},
+  title = 	 {Devlopment of discrete limit analysis
+and its application to the solid mechanics},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {383-390},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{wang:cp1997,
+  author = 	 {C. P. Wang and J. Sheng and C.-Y. Wang
+and C. L. Lee},
+  title = 	 {Selections of contact spring stiffness
+values in the numerical analysis for the system of 
+rigid disks},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {451-458},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{wang:cw1997,
+  author = 	 {C. Y. Wang and C.-F. Wang and J. Sheng},
+  title = 	 {A packing generation scheme for the 
+granular assemblies with 3Dellipsoidal particles},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {107-124},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+
+@InProceedings{yoshida:j1997,
+  author = 	 {J. Yoshida},
+  title = 	 {A static model of granular materials
+in a bin using distinct element analysis},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {359-364},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{zhang:gx1997,
+  author = 	 {G. X. Zhang and Y. Shugiura and H. Hasegawa},
+  title = 	 {Crack propogation and thermal fracture 
+analysis by manifold method},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {282-291},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}
+
+
+
+@InProceedings{zhou:w1997,
+  author = 	 {W. Zhou and Q. Yang and X. Kuo},
+  title = 	 {Manifold methods and its application 
+to engineering},
+  booktitle = 	 TITLE,
+  OPTcrossref =  {},
+  OPTkey = 	 {},
+  pages = 	 {274-281},
+  year = 	 {1997},
+  editor = 	 {Y. Ohnishi},
+  OPTvolume = 	 {},
+  OPTnumber = 	 {},
+  OPTseries = 	 {},
+  address = 	 {Kyoto, Japan},
+  OPTmonth = 	 {July 10-12},
+  OPTorganization = {},
+  publisher = {Japan Institute of Systems Research},
+  OPTnote = 	 {},
+  OPTannote = 	 {}
+}

@@ -1,0 +1,145 @@
+From lostlove@mil3-3.ce.berkeley.edu Sat May 19 15:54:25 2001
+Date: Fri, 18 May 2001 13:32:49 -0700
+From: Dr. Ed Love <lostlove@mil3-3.ce.berkeley.edu>
+To: doolin@cs.utk.edu
+
+%% bibtexfile{
+%%   author = "ed love" }
+
+@book{hughes,
+      author = {Thomas J.R. Hughes},
+      title  = "The Finite Element Method : Linear Static 
+                and Dynamic Finite Element Analysis",
+      publisher = "Prentice Hall, Inc. ",
+      year = "1987",
+      address = "Englewood Cliffs, New Jersey"
+}
+
+@book{batheBook,
+      author = {Klaus-Jurgen Bathe},
+      title  = "Finite Element Procedures",
+      publisher = "Prentice Hall, Inc. ",
+      year = "1996",
+      address = "Englewood Cliffs, New Jersey"
+}
+
+@phdthesis{rifai,
+           author = {Rifai, Steven M.},
+           title = {Static and Dynamic Finite Element Analysis of Finite Deformation
+                    Geometrically Exact Shell Models},
+           school = {Division of Applied Mechanics, Department of Mechanical Engineering,
+                     Stanfurd University},
+           year = 1993,
+           month = {August}
+}
+
+@article{simo,
+         author = {J.C. Simo and M. S. Rifai},
+         title = {{A Class of Mixed Assumed Strain Methods and the Method
+                  of Incompatible Modes}},
+         journal = {International Journal for Numerical Methods in Engineering},
+         year = 1990,
+         volume = {{\bf 29}},
+         pages = {1595-1638}
+}
+
+@article{bathePlate,
+         author = {K. J. Bathe and E. N. Dvorkin},
+         title = {{A Four-Node Plate Bending Element Based on Mindlin/Reissner Plate Theory
+                  and a Mixed Interpolation}},
+         journal = {International Journal for Numerical Methods in Engineering},
+         year = 1985,
+         volume = {{\bf 21}},
+         pages = {367-383}
+}
+
+@article{assumed,
+         author = {J. C. Simo and T. J. R. Hughes},
+         title = {{On the Variational Foundations of Assumed Strain Methods}},
+         journal = {Journal of Applied Mechanics},
+         year = 1986,
+         volume ={{\bf 53}},
+         pages = {51-54}
+}
+
+@inproceedings{onate,
+         author = {E. Onate},
+         title = {{A Review of Some Finite Element Families for Thick and Thin
+                  Plate and Shell Analysis}},
+         booktitle = {Recent Developments in Finite Element Analysis},
+         year = 1994,
+         month = {September},
+         editor = {T. J. R. Hughes and E. Onate and O. C. Zienkiewicz},
+         pages = {98-111},
+         publisher = {Published by International Center for Numerical Methods in
+                         Engineering (CIMNE) },
+         address = {Barcelona, Spain}
+}\
+
+@book{cookbook,
+      author = { Robert D. Cook and  David S. Malkus and Michael E. Plesha},
+      title  = "Concepts and Applications of Finite Element Analysis,
+                3rd. ed.",
+      publisher = "John Wiley and Sons",
+      year = "1989",
+      address = "New York"
+}
+
+@techreport{govindjee,
+            author = {Sanjay Govindjee},
+            title = {{CE222 Finite Element Methods Course Notes}},
+            institution = {Structural Engineering, Mechanics and Materials Program,
+                           Department of Civil and Environmental Engineering,
+                           University of California},
+            address = {Berkeley, California},
+            year = 1999
+}
+
+@book{timoshenko,
+      author = {Stephen P. Timoshenko and S. Woinowsky-Krieger},
+      title = {Theory of Plates and Shells, 2nd. ed.},
+      publisher = {McGraw-Hill Book Company},
+      year = 1959,
+      address = {New York}
+
+}
+
+@article{drill1,
+         author = {T. J. R. Hughes and F. Brezzi},
+         title = {{On Drilling Degrees of Freedom}},
+         journal = {Computer Methods in Applied Mechanics and Engineering},
+         year = 1989,
+         volume = {{\bf 72}},
+         pages = {105-121}
+}
+
+@article{drill2,
+         author = {T. J. R. Hughes and A. Masud and I. Harari},
+         title = {{Numerical Assessment of Some Membrane Elements
+                   with Drilling Degress of Freedom}},
+         journal = {Computers and Structures},
+         year = 1995,
+         volume = {{\bf 55}},
+         pages = {297-314}
+}
+
+@article{finiteRotation1,
+         author = {J. C. Simo and D. D. Fox and T. J. R. Hughes},
+         title = {{Formulations of Finite Elasticity with Independent
+                   Rotations}},
+         journal = {Computer Methods in Applied Mechanics and Engineering},
+         year = 1992,
+         volume = {{\bf 95}},
+         pages = {277-288}
+}
+
+@article{finiteRotation2,
+         author = {Ibrahimbegovic, A.},
+         title = {{Mixed Finite Element with Drilling Rotations for Plane
+                   Problems in Finite Elasticity}},
+         journal = {Computer Methods in Applied Mechanics and Engineering},
+         year = 1993,
+         volume = {{\bf 107}},
+         pages = {225-238}
+}
+

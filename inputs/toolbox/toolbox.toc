@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Changes}{2}
+\contentsline {section}{\numberline {2}Installation}{2}
+\contentsline {section}{\numberline {3}Description of the macros}{3}
+\contentsline {subsection}{\numberline {3.1}Implicit macro definitions}{3}
+\contentsline {subsection}{\numberline {3.2}Fancy optional argument parsing}{6}
+\contentsline {subsection}{\numberline {3.3}Loops over tokenlists and itemlists}{7}
+\contentsline {subsection}{\numberline {3.4}Controlled expansion}{8}
+\contentsline {subsection}{\numberline {3.5}Searching and splitting}{9}
+\contentsline {subsection}{\numberline {3.6}Redefinition of macros}{10}
+\contentsline {subsection}{\numberline {3.7}Concatenated macro names}{11}
+\contentsline {subsection}{\numberline {3.8}Various}{11}

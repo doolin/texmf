@@ -1,0 +1,42 @@
+CVSId: $Id: README,v 1.1 2002/07/03 15:00:49 doolin Exp $
+
+                                   Prosper 
+                 A LaTeX class to produce high quality slides
+
+
+See the documentation in doc/prosper-doc.pdf for a user manual. Read
+the INSTALL file for installing the class on your system.
+
+The contrib/ directory contains prosper styles contributed by various authors.
+
+
+Troubleshootings
+================
+See file TROUBLESHOOTINGS for solutions to common problems.
+
+
+Acknowledgments
+===============
+
+Many thanks to the following courageous beta-testers who provided me with 
+bug reports and numerous suggestions for improvement in fakeppt and prosper. 
+Extra thanks go to Vincent Dubois for suggesting me defining \FromSlide, 
+\OnlySlide,... macros.
+
+Vincent Dubois	  <Vincent.Dubois@irin.univ-nantes.fr>
+Gaëtan Gaumer 	  <Gaetan.Gaumer@irin.univ-nantes.fr>
+Eric Languénou	  <Eric.Languenou@irin.univ-nantes.fr>
+Pascal Poizat     <Pascal.Poizat@irin.univ-nantes.fr>
+Gyôm Raschia 	  <Guillaume.Raschia@irin.univ-nantes.fr>
+Vincent Rossignol <Vincent.Rossignol@irin.univ-nantes.fr>
+
+Bug reports and suggestions for improvements
+============================================
+
+Please go to the homepage of prosper at Source Forge and fill the appropriate
+forms there for either bug reports or suggestions for improvements:
+
+http://prosper.sourceforge.net/
+
+If you plan to use Prosper on a regular basis, you should consider subscribing
+to the lists prosper-users and prosper-announcement (see the homepage).

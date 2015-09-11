@@ -1,0 +1,116 @@
+%%
+%% This is file `subeqnarray.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% subeqnarray.dtx  (with options: `package')
+%% 
+%% 
+%% This is a generated file.
+%% 
+%% Copyright 1994-1999 Johannes Braams.  All rights reserved.
+%% 
+%% This program can be redistributed and/or modified under the terms
+%% of the LaTeX Project Public License Distributed from CTAN
+%% archives in directory macros/latex/base/lppl.txt; either
+%% version 1 of the License, or any later version.
+%% 
+%%   This file is distributed in the hope that it will be useful,
+%%   but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%% 
+%%   For error reports concerning UNCHANGED versions of this file no more
+%%   than one year old, send a bug report, using latex-bugs.tex to me at
+%%   the address jlbraams@cistron.nl.
+%% 
+%%   Please do not request updates from me directly.  Primary
+%%   distribution is through the CTAN archives.
+%% 
+%% 
+%% 
+%% 
+%% Copyright (C) 1988--1999 by Johannes Braams, <JLBraams@cistron.nl>
+%%                          all rights resserved
+%%
+%% This program can be redistributed and/or modified under the terms
+%% of the LaTeX Project Public License Distributed from CTAN
+%% archives in directory macros/latex/base/lppl.txt; either
+%% version 1 of the License, or any later version.
+%%
+%% Error reports please to: J. Braams
+%%                          TeXniek
+%%                          Kooienswater 62
+%%                          2715 AJ Zoetermeer
+%%                          The Netherlands
+%%                  Email:  <JLBraams@cistron.nl>
+\NeedsTeXFormat{LaTeX2e}[1998/06/01]
+\ProvidesPackage{subeqnarray}
+              [1999/03/03 v2.1b subeqnarray package]
+\newcounter{subequation}[equation]
+\def\thesubequation{\theequation\alph{subequation}}
+\DeclareOption{leqno}{%
+  \def\@subeqnnum{\hbox to .01\p@{}\rlap{\reset@font\rmfamily
+        \hskip -\displaywidth(\thesubequation)}}}
+\DeclareOption{reqno}{%
+  \def\@subeqnnum{{\reset@font\rmfamily (\thesubequation)}}}
+\DeclareOption{fleqn}{%
+  \def\subeqn@start{%
+    \tabskip\mathindent
+    \abovedisplayskip\topsep
+    \ifvmode\advance\abovedisplayskip\partopsep\fi
+    \belowdisplayskip\abovedisplayskip
+    \belowdisplayshortskip\abovedisplayskip
+    \abovedisplayshortskip\abovedisplayskip
+    $$\everycr{}\halign to \linewidth}}% $$
+\DeclareOption{deqn}{%
+  \def\subeqn@start{%
+    \tabskip\@centering
+    $$\everycr{}\halign to \displaywidth}}% $$
+\DeclareOption*{\OptionNotUsed}
+\ExecuteOptions{reqno,deqn}
+\ProcessOptions
+\newcommand\slabel[1]{%
+  \@bsphack
+  \if@filesw
+    {\let\thepage\relax
+     \def\protect{\noexpand\noexpand\noexpand}%
+     \edef\@tempa{\write\@auxout{\string
+        \newlabel{#1}{{\thesubequation}{\thepage}}}}%
+     \expandafter}\@tempa
+     \if@nobreak \ifvmode\nobreak\fi\fi
+  \fi\@esphack}
+\newenvironment{subeqnarray}%
+   {\stepcounter{equation}%
+    \def\@currentlabel{\p@equation\theequation}%
+    \global\c@subequation\@ne
+    \global\@eqnswtrue\m@th
+    \global\@eqcnt\z@\let\\\@subeqncr
+    \subeqn@start
+     \bgroup\hskip\@centering
+      $\displaystyle\tabskip\z@skip{##}$\@eqnsel
+      &\global\@eqcnt\@ne \hskip \tw@\arraycolsep \hfil${##}$\hfil
+      &\global\@eqcnt\tw@ \hskip \tw@\arraycolsep
+         $\displaystyle{##}$\hfil \tabskip\@centering
+      &\global\@eqcnt\thr@@
+         \hbox to\z@\bgroup\hss##\egroup\tabskip\z@skip\cr}
+   {\@@subeqncr\egroup $$\global\@ignoretrue}
+\def\@subeqncr{{\ifnum0=`}\fi\@ifstar{\global\@eqpen\@M
+    \@ysubeqncr}{\global\@eqpen\interdisplaylinepenalty \@ysubeqncr}}
+\def\@ysubeqncr{\@ifnextchar [{\@xsubeqncr}{\@xsubeqncr[\z@skip]}}
+\def\@xsubeqncr[#1]{\ifnum0=`{\fi}\@@subeqncr
+   \noalign{\penalty\@eqpen\vskip\jot\vskip #1\relax}}
+\def\@@subeqncr{\let\@tempa\relax
+    \ifcase\@eqcnt \def\@tempa{& & &}\or \def\@tempa{& &}
+      \or \def\@tempa{&}\else
+       \let\@tempa\@empty
+       \@latexerr{Too many columns in subeqnarray environment}\@ehc\fi
+     \@tempa \if@eqnsw\@subeqnnum\refstepcounter{subequation}\fi
+     \global\@eqnswtrue\global\@eqcnt\z@\cr}
+\newenvironment{subeqnarray*}%
+  {\def\@subeqncr{\nonumber\@ssubeqncr}\subeqnarray}
+  {\global\advance\c@equation\m@ne\nonumber\endsubeqnarray}
+\let\@ssubeqncr\@subeqncr
+\endinput
+%%
+%% End of file `subeqnarray.sty'.

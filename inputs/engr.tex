@@ -1,0 +1,115 @@
+%%%% Various math commands.
+%  The following block of commands must be used in math mode only.
+
+%  Miscellaneous program names.
+\def\matlab{{\tt Matlab}}
+\def\maple{{\tt Maple}}
+
+%  I get tired of doing the following operation:
+\newcommand{\mand}{%
+\quad\mbox{and}\quad%
+}
+
+%  This command (\sub) will be superseded by the \units command.
+\newcommand{\sub}[1]{%
+_{\rm #1} }
+
+\newcommand{\units}[1]{%
+_{\rm #1} }
+
+\newcommand{\s}[1]{%
+_{\rm  \tiny #1} }
+
+\renewcommand{\gg}{\gamma}
+\newcommand{\gr}{\rho}
+\newcommand{\f}{\frac}
+
+
+\newcommand{\ee}[1]{%
+\times 10^{#1} }
+
+%%%%%%%%%% Math environment macros
+
+\newcommand{\nn}{\nonumber}
+
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+
+\newcommand{\beqa}{\begin{eqnarray}}
+\newcommand{\eeqa}{\end{eqnarray}}
+
+\newcommand{\colthreevec}[3]{%
+\left\{\begin{array}{c}#1\\#2\\#3
+\end{array}\right\}}
+
+\newcommand{\colfourvec}[4]{%
+\left\{\begin{array}{c}#1\\#2\\#3\\#4
+\end{array}\right\}}
+
+\newcommand{\mattwobytwo}[4]{%
+\left[\begin{array}{cc}#1 & #2\\#3 & #4
+\end{array}\right]}
+
+
+\newcommand{\matthreebythree}[9]{%
+\left[\begin{array}{ccc}#1 & #2 & #3\\%
+                        #4 & #5 & #6\\%
+                        #7 & #8 & #9 
+\end{array}\right]}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%  This is a macro for gapping a subfigure:
+\def\goodgap{% 
+\hspace{\subfigtopskip}% 
+\hspace{\subfigbottomskip}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Here is Darcy's Law.  Must be in math mode.
+
+\newcommand{\Darcy}{%
+Q_i = AK_{ij}\frac{\partial h}{\partial x_i}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Here is a macro for units in engineering work;
+% Must be in math mode.
+
+\newcommand{\unit}[1]{%
+{\rm \, #1}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  An orientation tensor macro.
+%  must use in math mode for now.  Jane Hahns book
+%  shows how to get around that limitation.
+
+\newcommand{\otensor}[1]{%
+#1= \frac{1}{N}\left[\begin{array}{lll}
+\sum l_i^2 & \sum l_im_i & \sum l_in_i\\
+\sum m_il_i & \sum m_i^2 & \sum m_in_i\\
+\sum n_il_i & \sum n_im_i & \sum n_i^2
+\end{array}\right]
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some differential macros.
+
+\newcommand{\dqdx}{\frac{\partial q}{\partial x}}
+\newcommand{\dNdx}{\frac{d\{N_k\}}{dx}}
+\newcommand{\dNTdx}{\frac{d\{N_k\}^T }{dx}}
+\newcommand{\dTdx}{\frac{\partial T}{\partial x}}
+\newcommand{\dqdt}{\frac{\partial q}{\partial t}}
+\newcommand{\ddx}{\frac{\partial }{\partial x}}
+\newcommand{\ddr}{\frac{\partial }{\partial r}}
+\newcommand{\dqdn}{\frac{\partial q }{\partial n}}
+\newcommand{\dphidn}{\frac{\partial \phi }{\partial n}}
+\newcommand{\dQdt}{\frac{\partial Q }{\partial t}}
+\newcommand{\dQdr}{\frac{\partial Q }{\partial r}}
+

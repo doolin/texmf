@@ -1,0 +1,11 @@
+CVSId: $Id: TODO,v 1.1 2002/07/03 15:00:50 doolin Exp $
+
+* As of version 1.0h
+
++ get rid of \myitem{}{} to use a more standard way of modifying bullets
++ a graphical modeller for easily devising new Prosper styles (in [incr Tcl])
++ macro \forSlides{x-y} for displaying material on slides x, x+1, ..., y 
++ add control on parameters for macros \fromSlide,....
++ option to add automatically buttons on all slides to navigate through the
+  logical slides (vs. overlays).
++ offer a `letter' option for styles.

@@ -1,0 +1,15 @@
+The vector package provides a set of macros for more convenient
+representation of vectors in LaTeX2e, both symbolically and as
+implicit or explicit rows/columns of elements.
+
+To install, simply run TeX on vector.ins, then move vector.sty to
+somewhere in your TEXINPUTS path. Run LaTeX on vector.drv to
+produce documentation.
+
+Note: this is my first package for LaTeX2e. There is undoubtedly
+room for improvement, and suggestions emailed to nde@dcre.leeds.ac.uk
+will be gratefully received...
+
+
+Nick Efford
+September 1994

@@ -1,0 +1,5 @@
+\glossaryentry{1.1> =General:>Fixed bug in subeqnarray* environment}{1}
+\glossaryentry{2.0> =General:>Added support for the leqno option}{1}
+\glossaryentry{2.0> =General:>Added support for the fleqn option}{1}
+\glossaryentry{2.1> =General:>Upgrade for LaTeX2e}{1}
+\glossaryentry{v2.1b> =General:>Changed licensing remarks to use LPPL}{1}

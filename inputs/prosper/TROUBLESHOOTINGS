@@ -1,0 +1,49 @@
+Below are the solutions to some common problems encountered by users:
+
+
+
+** Slide orientation is in portrait instead of landscape when viewed in PDF
+
+-> two possible reasons for this: you did not choose the `pdf' option
+of prosper; or you have translated the PostScript file with ps2pdf
+coming with GNU GhostScript. GNU GhostScript (at least v. 5.10) has
+been reported to fail switching correctly the orientation. You should
+upgrade to Aladdin GhostScript 6.0 or above (see also next question).
+
+
+** The text of the slides in PDF is generally fine but some parts of it
+and the equations are ugly. 
+
+-> this is usually due to the fact that your file contains bitmap
+fonts. Fonts in a PDF file should always be vectorial ones. Use
+Aladdin GhostScript v. 60 or above (with the associated fonts) to 
+translate your PostScript file. You must also ask dvips to use
+vectorial fonts when creating a PostScript file from your DVI. To do
+this, create the file ~/.dvipsrc with the following lines:
+
+p +psfonts.cmz 
+p +psfonts.amz 
+
+
+** The slides are cropped in an odd way such that the footer is not
+completely visible.
+
+-> By default, GhostScript processes files assuming the pages are in
+letter format. Prosper standard styles assume a European A4
+format. You have to make GhostScript aware of the fact by using the
+option
+
+-sPAPERSIZE=a4
+
+when you use ps2pdf. You can alternatively set the variable GS_OPTIONS
+in your shell init file. E.g. in bash, put the following line in 
+your ~/.bash_profile:
+
+export GS_OPTIONS="-sPAPERSIZE=a4"
+
+
+** gv is really slow to display slides when I use some particular styles.
+
+-> Styles using gradients of colors are indeed really slow to display
+and appear usually ugly with gv when the antialias is ON. Just turn it
+OFF to fix the problem. 
